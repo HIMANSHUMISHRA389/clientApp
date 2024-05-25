@@ -10,6 +10,7 @@ const Navbar2 = () => {
         lineHeight: '24px',
         textDecoration: 'none', // Optional: Remove underline
         marginRight: '20px',
+        whiteSpace:'nowrap'
     };
     return <Flex as="nav" minW="100vw" bgColor="#FF6766" h="10vh" marginTop="-0.5%" alignItems="center" justifyContent="space-around">
         <Flex flex="1" justifyContent="center">
@@ -28,7 +29,7 @@ const Navbar2 = () => {
         </Flex>
 
         <Flex flex="1" alignItems="center" justifyContent="flex-start" >
-            <Flex width="80%" justifyContent="space-around" alignItems="center" style={{ listStyle: 'none' }} >
+            <Flex width="100%" justifyContent="flex-start" alignItems="center" style={{ listStyle: 'none' }} padding="0 5%">
 
 
                 <a href="#section1" style={linkStyles}>
