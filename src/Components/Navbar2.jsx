@@ -48,7 +48,7 @@ const Navbar2 = () => {
                 </li>
                 <li>
                     <a href="#section3" style={linkStyles}>
-                        Faqs
+                        FaQs
                     </a>
                 </li>
                 <li>
