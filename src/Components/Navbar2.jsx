@@ -29,7 +29,7 @@ const Navbar2 = () => {
         </Flex>
 
         <Flex flex="1" alignItems="center" justifyContent="flex-start" >
-            <Flex width="100%" justifyContent="flex-start" alignItems="center" style={{ listStyle: 'none' }} padding="0 5%">
+            <Flex width="75%" justifyContent="space-around" alignItems="center" style={{ listStyle: 'none' }} padding="0 5%">
 
 
                 <a href="#section1" style={linkStyles}>
